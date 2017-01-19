@@ -42,8 +42,8 @@
     // using the 'speak' method or either helloSpeaker's or byeSpeaker's
     // 'speak' method.
     // See Lecture 50, part 1
-    for (var name in names) {
-
+    for (var idx in names) {
+      var name = names[idx];
       // STEP 11:
       // Retrieve the first letter of the current name in the loop.
       // Use the string object's 'charAt' function. Since we are looking for
